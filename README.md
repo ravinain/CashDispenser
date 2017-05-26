@@ -18,8 +18,7 @@ main.ClientMain is an entry point.
     1. open command terminal
     2. execute 'mvn clean install' command (This will generate jar file in target folder)
     3. execute 'java -cp "target/CashDispenser.jar; ." main.ClientMain' command
-    4. By default initial denomination values set from src/main/resources/Deno_Map.properties file; however, if you want to initialize with your own properties file then pass it in the first argument of the command.
-For example: 'java -cp "target/CashDispenser.jar; ." main.ClientMain C:\Users\user1\Desktop\sample.properties'
+    4. By default initial denomination values set from src/main/resources/Deno_Map.properties file; however, if you want to initialize with your own properties file then pass it in the first argument of the command. For example: 'java -cp "target/CashDispenser.jar; ." main.ClientMain C:\Users\user1\Desktop\sample.properties'
     5. After executing the above command it will show user list of options as mentioned below:
     Options:
         1. Withdraw
